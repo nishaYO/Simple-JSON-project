@@ -1,7 +1,0 @@
-Request object creates the request but fetch() api sends it to the server
-there are properties and methods in js objects but only properties in JSON
-every property has a name and a value 
-if there are single quotes closing the Json data then it is called raw data and it needs to beparsed using json.parse()
-if there is a file you are fetching from the internet and want to extract JSON content out of it(already parsed(no single quotes))then you can use .json() and it will be extracted as an object
-in js
-but if the json data in the file is not parsed (or it is raw data) then we use .text() and then .parse() to fetch it in the form of js object. 
